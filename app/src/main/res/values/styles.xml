@@ -111,4 +111,8 @@
         <item name="widgetLayout">@layout/preference_material_switch</item>
     </style>
 
+    <style name="LocationToolbarTitleStyle" >
+        <item name="android:textSize">@dimen/location_title_size</item>
+    </style>
+
 </resources>

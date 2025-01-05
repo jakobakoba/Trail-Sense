@@ -7,4 +7,5 @@
     <dimen name="rounded_corner_size">8dp</dimen>
     <dimen name="chart_height">150dp</dimen>
     <dimen name="gesture_zone">32dp</dimen>
+    <dimen name="location_title_size">21sp</dimen>
 </resources>

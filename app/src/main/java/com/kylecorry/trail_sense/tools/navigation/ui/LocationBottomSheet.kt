@@ -93,6 +93,7 @@ class LocationBottomSheet : BoundBottomSheetDialogFragment<FragmentLocationBindi
         val gps = this.gps ?: return
 
         binding.locationTitle.title.text = formatService.formatLocation(gps.location, format)
+        binding.locationTitle.title.setTextAppearance(R.style.LocationToolbarTitleStyle)
         binding.satellites.text = getString(R.string.num_satellites, gps.satellites ?: 0)
 
         val accuracy = gps.horizontalAccuracy
